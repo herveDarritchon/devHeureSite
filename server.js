@@ -9,7 +9,7 @@ var path = require('path');
 var indexPage, movie_webm, movie_mp4, movie_ogg;
 
 fs.readFile(path.resolve(__dirname,process.env.OPENSHIFT_DATA_DIR + "/videos/DH_XXE_Kermit.mp4"), function (err, data) {
-    console.log(process.env.OPENSHIFT_DATA_DIR);
+    console.log("Variable d'environnement OPENSHIFT_DATA_DIR = " + process.env.OPENSHIFT_DATA_DIR);
     if (err) {
         throw err;
     }
@@ -125,13 +125,14 @@ fs.readFile(path.resolve(__dirname,process.env.OPENSHIFT_DATA_DIR + "/videos/DH_
         };
 
         self.routes['/home'] = function(req, res) {
-            console.log ("serve session.html");
-            fs.readFile('/static/html/session.html', function(error, content) {
+            fs.readFile('./static/html/session.html', function(error, content) {
                 if (error) {
+                    console.log ("Error 500 - serving static html file --> session.html");
                     res.writeHead(500);
                     res.end();
                 }
                 else {
+                    console.log ("serve static html file session.html");
                     res.writeHead(200, { 'Content-Type': 'text/html' });
                     res.end(content, 'utf-8');
                 }
