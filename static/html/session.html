@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="" ng-app="deveHeure">jque
+<head>
+	<title>Historique des sessions de la Dévelop'Heure</title>
+	<meta charset="UTF-8">
+	<meta name=description content="">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap CSS -->
+	<link href="/static/css/bootstrap.css" rel="stylesheet" media="screen">
+</head>
+<body>
+	<h1 class="text-center">Ci dessous l'historique des sessions de la Dévelop'Heure</h1>
+
+	<div class="table-responsive" ng-controller="displayHistory">
+		<table class="table table-hover">
+			<thead>
+				<tr>
+					<th>1 + 2 = {{ 1 + 2 }}</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<!-- AngularJS -->
+	<script src="/static/js/angular-1.2.14.js"></script>
+	<!-- jQuery -->
+	<script src="/static/js/jquery-1.11.0.js"></script>
+	<!-- Bootstrap JavaScript -->
+	<script src="/static/js/bootstrap.js"></script>
+	<script type="text/javascript">
+
+		$(document).ready(function(){
+			$("#msgid").html("This is Hello World by JQuery");
+		});
+
+	</script>
+</body>
+</html>
