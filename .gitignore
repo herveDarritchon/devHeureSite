@@ -126,5 +126,5 @@ bin/
 # ##########################
 # Ignore file - Sublime Text
 # ##########################
-.sublime-project
-.sublime-workspace
+*.sublime-project
+*.sublime-workspace
