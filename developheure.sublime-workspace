@@ -1,0 +1,262 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"server",
+				"https.Server(opts, requestListener);"
+			],
+			[
+				"conso",
+				"console.dir(object);"
+			],
+			[
+				"h",
+				"html"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"index",
+				"Snippet: index"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ta",
+				"Snippet: bs3-table-responsive"
+			],
+			[
+				"Snippet: html",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"Snippet: ",
+				"Snippet: bs3-col"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 212.0,
+		"history":
+		[
+			"help",
+			"DEBUG=app",
+			"DEBUG=myapp",
+			"DEBUG=myapp node app",
+			"help",
+			"Console.log(\"Toto\");",
+			"console.log(\"Toto\");",
+			"node app",
+			"npm ls",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Applications/WorkspaceNodeJS/DevelopHeure/routes/index.js",
+		"/C/Applications/WorkspaceNodeJS/DevelopHeure/server.js",
+		"/C/Applications/WorkspaceNodeJS/DevelopHeure/views/index.jade",
+		"/C/Applications/WorkspaceNodeJS/DevelopHeure/views/partials/index.jade",
+		"/C/Applications/WorkspaceNodeJS/DevelopHeure/views/partials/readPost.jade",
+		"/C/Applications/WorkspaceNodeJS/DevelopHeure/views/partials/addPost.jade",
+		"/C/Applications/WorkspaceNodeJS/DevelopHeure/views/partials/editPost.jade",
+		"/C/Applications/WorkspaceNodeJS/DevelopHeure/views/partials/deletePost.jade",
+		"/C/Applications/WorkspaceNodeJS/DevelopHeure/views/error.jade",
+		"/C/Applications/WorkspaceNodeJS/DevelopHeure/views/layout.jade",
+		"/C/Applications/WorkspaceNodeJS/DevelopHeure/public/javascripts/myJqueryCode.js",
+		"/C/Applications/WorkspaceNodeJS/DevelopHeure/routes/user.js",
+		"/C/Applications/WorkspaceNodeJS/DevelopHeure/stubs/sessionStub.json",
+		"/C/Applications/WorkspaceNodeJS/DevelopHeure/views/includes/foot.jade",
+		"/C/Applications/WorkspaceNodeJS/DevelopHeure/views/includes/head.jade",
+		"/C/Users/ahdi7503/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/ahdi7503/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/ahdi7503/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/ahdi7503/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Applications/WorkspaceNodeJS/DevelopHeure/app.js",
+		"/C/Applications/WorkspaceNodeJS/Develp'Heure/server.js",
+		"/C/Applications/WorkspaceNodeJS/devHeureSite/package.json",
+		"/C/Applications/WorkspaceNodeJS/devHeureSite/server.js",
+		"/C/Applications/WorkspaceNodeJS/devHeureSite/static/html/summary.html",
+		"/C/Applications/WorkspaceNodeJS/orangeina/server.js",
+		"/C/Applications/WorkspaceNodeJS/orangeina/static/html/session.html",
+		"/C/Applications/WorkspaceNodeJS/orangeina/static/session.html",
+		"/C/Applications/WorkspaceNodeJS/orangeina/videoStreaming.html",
+		"/C/Applications/WorkspaceNodeJS/orangeina/static/stub/stdResponse.txt",
+		"/C/Applications/WorkspaceNodeJS/streaming-video-html5/server.js",
+		"/C/My Program Files/IBM/SDP/eclipse.exe",
+		"/C/Applications/WorkspaceNodeJS/streaming.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"favicon",
+			"express",
+			"request",
+			"response",
+			"port",
+			"8080",
+			"create",
+			"server",
+			"app"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"res"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "developheure.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

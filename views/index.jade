@@ -1,0 +1,18 @@
+extends layout
+
+block content
+	h1 Dévelop'Heure
+	p Welcome to my super lame site - <span id='msgid'>none</span>.
+
+	h3= title
+	p Welcome to #{title}
+
+	div
+		h3 My Blog
+		ul
+			li 
+				a(href='/') Home
+			li
+				a(href='/addPost') Add a new post
+
+	div(ng-view)

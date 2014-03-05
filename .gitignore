@@ -113,3 +113,18 @@ local.properties
 # TeXlipse plugin
 .texlipse
 
+# #######################
+# Ignore file - NodeJS
+# #######################
+node_modules/
+bin/
+
+# #######################
+# Ignore file - AngularJS
+# #######################
+
+# ##########################
+# Ignore file - Sublime Text
+# ##########################
+.sublime-project
+.sublime-workspace
