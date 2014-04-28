@@ -1,0 +1,21 @@
+-- Table: dh_session
+
+-- DROP TABLE dh_session;
+
+CREATE TABLE dh_session
+(
+  id bigint NOT NULL,
+  description character varying(255),
+  livesession bigint,
+  speaker character varying(255),
+  surveyurl character varying(255),
+  title character varying(255),
+  version integer,
+  videourl character varying(255),
+  CONSTRAINT dh_session_pkey PRIMARY KEY (id)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE dh_session
+  OWNER TO throdo;
